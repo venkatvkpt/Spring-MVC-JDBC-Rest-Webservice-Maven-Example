@@ -11,7 +11,7 @@
 	<bean id="jTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
-	<bean id="JdbcTemplate" class="com.fourgid.sfc.dao.DataBaseDao">
+	<bean id="JdbcTemplate" class="com.spring.dao.DataBaseDao">
 		<property name="jdbcTemplate" ref="jTemplate"></property>
 	</bean>
  

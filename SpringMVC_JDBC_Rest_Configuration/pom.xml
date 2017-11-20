@@ -51,13 +51,16 @@
 		<artifactId>spring-webmvc</artifactId>
 		<version>${spring.version}</version>
 	</dependency>
-	<!-- <dependency>
+	
+	<!--  This is add a dependency to a jar by relative path.
+				Path Location is project Directory lib folder ojdbc14.jar file -->
+	<dependency>
 		    <groupId>com.oracle</groupId>
 		    <artifactId>ojdbc</artifactId>
 		    <version>14</version>
 		    <scope>system</scope>
-		    <systemPath>${basedir}\WebRoot\WEB-INF\lib\ojdbc14.jar</systemPath>
-		</dependency> -->
+		    <systemPath>${basedir}\lib\ojdbc14.jar</systemPath>
+		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>

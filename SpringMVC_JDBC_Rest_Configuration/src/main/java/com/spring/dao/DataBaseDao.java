@@ -1,5 +1,15 @@
 package com.spring.dao;
 
-public class DataBaseDao {
+import org.springframework.jdbc.core.JdbcTemplate;
 
+public class DataBaseDao {
+	/*Jdbc Connection Template*/
+	private JdbcTemplate jdbcTemplate;
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	public JdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
 }
