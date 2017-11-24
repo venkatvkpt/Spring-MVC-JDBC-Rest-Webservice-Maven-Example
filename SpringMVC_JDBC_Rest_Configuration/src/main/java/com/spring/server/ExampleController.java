@@ -1,4 +1,4 @@
-package com.spring.controller;
+package com.spring.server;
 
 import java.util.ArrayList;
 import java.util.List;
